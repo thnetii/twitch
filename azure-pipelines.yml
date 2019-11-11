@@ -17,5 +17,7 @@ jobs:
 - template: templates/dotnetcore/azure-pipelines.yml@templates
   parameters:
     presteps:
-    - checkout:   self
-      submodules: true
+    - checkout:     self
+      submodules:   true
+    - script:       git submodule update --init --recursive
+      displayName:  Checkout nested submodules
