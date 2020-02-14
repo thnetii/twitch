@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\graphql\src\THNETII.GraphQL.Http\THNETII.GraphQL.Http.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\THNETII.Twitch.HelixApi\THNETII.Twitch.HelixApi.csproj">
       <PrivateAssets>All</PrivateAssets>
     </ProjectReference>
